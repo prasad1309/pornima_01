@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>prima think</title>
+</head>
+<Style>
+    body {
+        margin: 0;
+        margin-top: 50px;
+        font-family: sans-serif;
+    }
+    
+    header {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        line-height: 50px;
+        background-color: #FF8C00;
+    }
+    
+    header * {
+        display: inline;
+        height: 50px;
+        background-color: #FF8C00;
+    }
+    
+    header ul {
+        padding: 0;
+    }
+    
+    header li {
+        margin-left: 20px;
+    }
+    
+    section {
+        height: 100vh;
+        border: 5px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        /* Add this line */
+        background-position: center center;
+        /* Add this line */
+        background-repeat: no-repeat;
+        /* Add this line */
+        background-attachment: fixed;
+        /* Add this line */
+    }
+    
+    #hero .profile-img {
+        width: 300px;
+        border-radius: 50%;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 50px;
+        background-color: #B0C4DE;
+    }
+    
+    #hero h1 {
+        font-size: 3em;
+        background-color: #FED8B1;
+        border: 3px solid black;
+    }
+    
+    section h2 {
+        font-size: 2.5em;
+        background-color: #FED8B1;
+        border: 3px solid black;
+    }
+    
+    section h3 {
+        font-size: 1.5em;
+        background-color: #FED8B1;
+        border: 3px solid black;
+    }
+    
+    section h4 {
+        font-size: 1.5em;
+        background-color: #FED8B1;
+        border: 3px solid black;
+    }
+    
+    section h5 {
+        font-size: 1.5em;
+        background-color: #FED8B1;
+        border: 3px solid black;
+    }
+    
+    section h6 {
+        font-size: 1.5em;
+        background-color: #FED8B1;
+        border: 3px solid black;
+    }
+    
+    section h7 {
+        font-size: 1.5em;
+        background-color: #FED8B1;
+        border: 3px solid black;
+    }
+    
+    section h8 {
+        font-size: 1.5em;
+        background-color: #FED8B1;
+        border: 3px solid black;
+    }
+    
+    section h9 {
+        font-size: 1.5em;
+        background-color: #FED8B1;
+        border: 3px solid black;
+    }
+    
+    section h10 {
+        font-size: 1.5em;
+        background-color: #FF8C00;
+        border: 3px solid black;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: black;
+    }
+    /* Add everything below here */
+    
+    #hero {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    }
+    
+    #about {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    }
+    
+    #contact {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    }
+    
+    #services {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    }
+    
+    #webdevelopmenttraining {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    }
+    
+    #speciality {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    }
+    
+    #address {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    }
+    
+    #ourwebsite {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    }
+    
+    #othercourses {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    }
+</Style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#webdevelopmenttraining">Web development Training</a></li>
+                <li><a href="#speciality">Speciality</a></li>
+                <li><a href="#address">Address</a></li>
+                <li><a href="#ourwebsite">Our website</a></li>
+                <li><a href="#othercourses">Other courses</a></li>
+
+
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="section-inner">
+
+
+                <h1>
+                    <marquee>
+                        <font color="orange"><b>Prima</b></font>
+                        <font color="black"><b>Think</b></font>
+                    </Marquee>
+                </h1>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-inner">
+                <h2>
+                    <marquee>About PrimaThink Technologies</marquee>
+                </h2>
+                <p>We are Full-Stack Digital Transformation Company. As a Digital Marketing Company, we are offering Digital Marketing, Web Development & Digital Transformation Consulting. We have experts who are result oriented in building online brand
+                    presence..</p>
+                <h3>Digital Marketing Services</h3>
+                <ul>
+                    <li>SEO</li>
+                    <li>Social Media</li>
+                    <li>website Development</li>
+                    <li>E-commerce</li>
+                    <li>Maintenance</li>
+                    <li>Digital Marketing</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="section-inner">
+                <h2>
+                    <marquee>Contact us on</marquee>
+                </h2>
+                <p>Mob no:9890544466</p>
+                <ul>
+                    <li><a href="http://Twitter.com/primathink">Twitter</a></li>
+                    <li><a href="http://Facebook.com/primathink">Facebook</a></li>
+                    <li><a href="http://Instagram.com/primathink">Instagram</a></li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section id="services">
+            <div class="section-inner">
+                <h2>
+                    <marquee>Services in PrimaThink Technologies</marquee>
+                </h2>
+                <p>PrimaThink Technologies provides you many services at one point and they all are very important in digital world.</p>
+
+                <ul>
+                    <li>1.SEO:
+                        <p>SEO is Fuel for a local Small Scale business.</p>
+                    </li>
+                    <li> 2.Social Media:
+                        <p>Creating Brand needs General Impression On Social Media.</p>
+                    </li>
+                    <li> 3.website Development:
+                        <p>A website is one of the most crucial factors While Building Online Presence.</p>
+                    </li>
+                    <li>4.E-commerce:
+                        <p>Manage the business and make transactions by an online shop..</p>
+                    </li>
+                    <li>5.Maintenance:
+                        <p>An powerful business website requires regular carrying.</p>
+                    </li>
+                    <li>6.Digital Marketing:
+                        <p>Understanding the Digital Transformation its need globally we devote ourselves towards the best Software solutions and Digital Marketing strategy solutions</p>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+
+        <section id="webdevelopmenttraining">
+            <div class="section-inner">
+                <h2>
+                    <marquee>web development Training</marquee>
+                </h2>
+                <p>In this digital era Website is a sign of brand credibility, It helps to build a direct connection between business and users. A business that has a website is very easily accessible. PrimaThink’s Web development services are a one-stop
+                    solution for all your website needs. We have the perfect team which can meet your Website building requirement. We are the top Web development company that can help you define your brand and help increase your brand revenue. Building
+                    a website is a collective process where the client’s vision has to be understood by the developers, Our team is experienced that can bring your vision into reality to sleep.</p>
+
+                <h3>website Examples:</h3>
+                <ul>
+                    <li>Business-oriented sites </li>
+                    <li>Universally Devices Friendly sites4</li>
+
+                    <li>Corporate based sites</li>
+
+                    <li>Online Marketing and Shopping Sites</li>
+
+                    <li>Secured and Reliable Sites</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section id="speciality">
+            <div class="section-inner">
+                <h2>
+                    <marquee>Our Specialities</marquee>
+                </h2>
+                <p></p>
+                <ul>
+                    <li>. Digital Marketing</li>
+
+                    <li>Web Development</li>
+
+                    <li>Graphics Design</li>
+
+                    <li>SEO</li>
+
+                    <li>Social Media </li>
+
+                    <li>MarketingReact</li>
+
+                    <li>JsAngularJsDigital</li>
+
+                    <li>TransformationWeb</li>
+
+                    <li>Designing Facebook ad</li>
+
+                    <li>Google ads</li>
+
+                    <li>Instagram ads</li>
+
+                    <li>YouTube ads</li>
+
+                    <li>Facebook ads </li>
+
+                    <li>Advertising Agency</li>
+
+                    <li>Google Advertising Agency</li>
+
+                    <li>Industrial Training</li>
+
+                    <li>Digital Marketing Training</li>
+
+                    <li>Website Development Training</li>
+                    <li>Branding</li>
+
+                    <li>Digital Automation</li>
+
+                    <li>Business Automation</li>
+
+                    <li>Marketing Automation</li>
+
+                    <li>WordPress</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="address">
+            <div class="section-inner">
+                <h2>
+                    <marquee>Address of PrimaThink</marquee>
+                </h2>
+                <p>C/O: Thakur, Chintamani Colony,<br>Near Gajanan Maharaj Temple<br> Shrihari Nagar,<br> Arjun Nagar,<br>Amravati (444602), <br>Maharashtra – 9890544466</p>
+                <ul></ul>
+            </div>
+        </section>
+
+        <section id="ourwebsite">
+            <div class="section-inner">
+                <h2>
+                    <marquee>Our websites</marquee>
+                </h2>
+                <p>You can visit our official websites through the given links shared below:</p>
+                <ul>
+
+                    <li> <a href="https://primathink.com/">PrimaThink homepage</a></li>
+
+                    <li> <a href="https://primathink.com/contacts">PrimaThink contact</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="othercourses">
+            <div class="section-inner">
+                <h2>
+                    <marquee>Other courses</marquee>
+                </h2>
+
+                <p>PrimaThink Technologies provides you many services at one point and they all are very important in digital world.</p>
+
+                <ul>
+                    <li>1.SEO:
+                        <p>SEO is Fuel for a local Small Scale business.</p>
+                    </li>
+                    <li> 2.Social Media:
+                        <p>Creating Brand needs General Impression On Social Media.</p>
+                    </li>
+                    <li> 3.website Development:
+                        <p>A website is one of the most crucial factors While Building Online Presence.</p>
+                    </li>
+                    <li>4.E-commerce:
+                        <p>Manage the business and make transactions by an online shop..</p>
+                    </li>
+                    <li>5.Maintenance:
+                        <p>An powerful business website requires regular carrying.</p>
+                    </li>
+                    <li>6.Digital Marketing:
+                        <p>Understanding the Digital Transformation its need globally we devote ourselves towards the best Software solutions and Digital Marketing strategy solutions</p>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+</body>
+
+</html>
